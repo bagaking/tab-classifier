@@ -9,7 +9,8 @@
     "dev": "webpack --config ./build/webpack.dev.conf.js --hide-modules",
     "build": "node build/build.js",
     "zip": "zip -q -r extension.zip dist",
-    "clear": "rm -rf chrome-ext.crx extension.zip dist"
+    "clear": "rm -rf chrome-ext.crx extension.zip dist",
+    "test": "./node_modules/.bin/mocha --compilers js:babel-core/register"
   },
   "dependencies": {
     "vue": "^2.5.11",
