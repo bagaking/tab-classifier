@@ -2,7 +2,7 @@
   "name": "tab-classifier",
   "description": "help classify chrome tabs",
   "version": "1.0.0",
-  "author": "kinghand <zfaustk@gmail.com>",
+  "author": "bagaking <zfaustk@qq.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
