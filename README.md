@@ -1,6 +1,6 @@
 # tab-classifier
 
-> help classify chrome tabs
+> help to classify chrome tabs
 
 ## Build Setup
 
@@ -13,4 +13,7 @@ npm run dev
 
 # build for production with minification && crx package
 npm run build
+
+# pack chrome extension
+npm run zip
 ```
