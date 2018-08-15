@@ -10,14 +10,13 @@
     "build": "node build/build.js",
     "zip": "zip -q -r extension.zip dist",
     "clear": "rm -rf chrome-ext.crx extension.zip dist",
-    "test": "./node_modules/.bin/mocha --compilers js:babel-core/register"
+    "test": "./node_modules/.bin/mocha --recursive -t 10000 --compilers js:babel-core/register"
   },
   "dependencies": {
-    "vue": "^2.5.11",
     "babel-polyfill": "^6.26.0",
     "element-ui": "^2.4.5",
-    "idb-global": "^2.1.0",
-    "idb-kv-store": "^4.4.0"
+    "idb-kv-store": "^4.4.0",
+    "vue": "^2.5.11"
   },
   "browserslist": [
     "> 1%",

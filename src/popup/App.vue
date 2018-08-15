@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <el-container>
-      <el-header>
+      <!-- <el-header>
         <el-menu :default-active="state" class="navigator" mode="horizontal"
                  background-color="#FFF" text-color="#366"
                  active-text-color="#69C" @select="handleSelect">
@@ -12,10 +12,10 @@
             <el-input placeholder="topic here" v-model="currentTopic" @change="inputTopic"></el-input>
           </el-menu-item> 
         </el-menu>
-      </el-header>
-      <!--<img src="../assets/logo.png">-->
-      <el-main>
-        <tabLst style="margin-top: -30px; margin-bottom: -18px" v-if="state == 'TabLst'"></tabLst>
+      </el-header> -->
+      
+      <el-main style="margin-top:-16px; padding:0px;">
+        <tabLst  v-if="state == 'TabLst'"></tabLst>
       </el-main>
     </el-container>
   </div>
@@ -43,19 +43,18 @@ export default {
 </script>
 
 <style lang="scss">
-html, body {
-  width: 500px;
-  height: 500px;
-}
+ 
 
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: "PingFang SC", "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: -8px;
-  margin-left: -28px;
-  margin-right: -268px;
+  margin: -8px;
+  margin-bottom: -16px;
 }
+ 
+
+
 </style>
