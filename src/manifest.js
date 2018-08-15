@@ -1,8 +1,10 @@
 module.exports = {
-  name: 'Vue Chrome Extension',
+  name: 'Tab Classifier',
   version: '1.0.0',
-  description: 'Vue.js Chrome Extension Template',
-  author: '',
+  description: 'Collect tabs to md easily. ',
+  author: 'bagaking',
+  email: 'kinghand@foxmail.com',
+  repo_url: 'https://github.com/bagaking/tab-classifier',
   manifest_version: 2,
   icons: {
     '16': 'icons/main.png',
